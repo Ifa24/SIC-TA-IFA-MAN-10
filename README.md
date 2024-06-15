@@ -27,8 +27,8 @@
 
 DHT tempSensor(DHTPIN, DHTTYPE);
 
-const char* ssid = "Ifa24";
-const char* password = "B 2438 Ifa";
+const char* ssid = "Salma_Koe";
+const char* password = "SalmaFiryalAbyan22";
 const char* serverName = "http://192.168.99.22:5000/sensor/data";
 
 void setup() {
@@ -75,7 +75,6 @@ void loop() {
   }
   delay(10000); // Send data every 10 seconds (adjust as needed)
 }
-
 # PYTHON FLASK CODE
 from flask import Flask, request, jsonify
 from flask_cors import CORS
