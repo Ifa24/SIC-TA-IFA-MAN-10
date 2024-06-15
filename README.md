@@ -18,6 +18,7 @@
 ![image](https://github.com/Ifa24/SIC-TA-IFA-MAN-10/assets/171414951/70c7a431-f115-4b1b-93d2-79e6f51dbe21)
 
 # ARDUINO CODE
+`````
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <DHT.h>
@@ -75,7 +76,9 @@ void loop() {
   }
   delay(10000); // Send data every 10 seconds (adjust as needed)
 }
+`````
 # PYTHON FLASK CODE
+`````
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
@@ -103,3 +106,4 @@ def get_data():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+`````
